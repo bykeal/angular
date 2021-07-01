@@ -1,0 +1,10 @@
+<div class="container">
+    <!-- interpolation binding -->
+    <h1> {{Title *5 + ' ' + getTitle()}}</h1>
+
+    <!-- property binbing -->
+    <img [src]='imgUrl' alt="" [style.width.px]="pixelWidth"> <br><br><br>
+
+<input type="text" [(ngModel)]='uinput'>
+<p> user input: {{uinput}}</p>
+</div>
